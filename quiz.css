@@ -1,0 +1,90 @@
+footer {
+	margin: 8px 0;
+	text-align: center;
+}
+
+/*Img centered*/
+img {
+	margin: 1em auto;
+	display: block;
+}
+
+/*/////////CLASSES/////////*/
+/*Card width and border*/
+.card {
+	width: 30%;
+	border: 1px solid lightblue;
+	display: inline-block;
+	float: left;
+	margin: 15px 1.5%; /*thought this would be 2.5?*/
+}
+
+/*Card title border and centered*/
+.cardTitle {
+	border: 1px dotted lightgray;
+	text-align: center;
+}
+
+/*Description justified*/
+.description {
+	text-align: justify;
+	padding: 10px;
+	height: 120px;
+}
+/*Product specs bold*/
+.specs {
+	font-weight: bold;
+}
+
+/*pricing bold*/
+.price {
+	font-weight: bold;
+}
+/*Aval. element full width, dark grey background, yellow text*/
+.avalibility {
+	width: 100%;
+	background-color: rgb(115,115,115);
+	color: yellow;
+}
+
+/*TINT*/
+
+.image {
+	width: 100%;
+}
+
+.overlay {
+	width: 29.5%;
+	z-index: 1;
+	position: absolute;
+}
+
+.blue {
+	background: rgba(0,0,255,.2);
+	height: 225.204px; 
+	width: 150px;
+	margin: auto;
+}
+
+.bluer {
+	background: rgba(0,0,255,.3);
+	height: 225.204px; 
+	width: 150px;
+	margin: auto;
+}
+
+
+.goldblumBlue {
+	background: rgba(0,0,255,.5);
+	height: 225.204px; 
+	width: 150px;
+	margin: auto;
+}
+
+.goldblue {
+	background: rgb(0,0,255);
+	height: 225.204px; 
+	width: 150px;
+	margin: auto;
+}
+
